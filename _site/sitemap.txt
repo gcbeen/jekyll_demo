@@ -1,10 +1,16 @@
 
-http://username.github.com/index.html
-http://username.github.com/atom.xml
-http://username.github.com/tags.html
-http://username.github.com/sitemap.txt
-http://username.github.com/pages.html
-http://username.github.com/archive.html
-http://username.github.com/categories.html
+http://github.com/gcbeen/index.html
+http://github.com/gcbeen/atom.xml
+http://github.com/gcbeen/tags.html
+http://github.com/gcbeen/sitemap.txt
+http://github.com/gcbeen/index _copy.html
+http://github.com/gcbeen/about.html
+http://github.com/gcbeen/pages.html
+http://github.com/gcbeen/archive.html
+http://github.com/gcbeen/categories.html
 
-http://username.github.com/lessons/2011/12/29/jekyll-introduction
+http://github.com/gcbeen/2012/12/27/rake
+http://github.com/gcbeen/2012/12/27/jekyll-blog-start
+http://github.com/gcbeen/2012/12/15/hello-world
+http://github.com/gcbeen/2012/12/15/git
+http://github.com/gcbeen/lessons/2011/12/29/jekyll-introduction

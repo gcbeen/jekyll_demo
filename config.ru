@@ -1,3 +1,3 @@
 require "rack/jekyll"
 run Rack::Jekyll.new
-web: bundle exec jekyll --server -p $PORT
+web: bundle exec jekyll --server $PORT
