@@ -4,7 +4,7 @@
  <title>三个火枪手</title>
  <link href="http://github.com/gcbeen/atom.xml" rel="self"/>
  <link href="http://github.com/gcbeen"/>
- <updated>2013-01-01T11:17:01+08:00</updated>
+ <updated>2013-01-13T09:03:47+08:00</updated>
  <id>http://github.com/gcbeen</id>
  <author>
    <name>gcbeen</name>
@@ -13,11 +13,21 @@
 
  
  <entry>
-   <title>new post</title>
-   <link href="http://github.com/gcbeen/2013/01/01/new-post"/>
+   <title>pry person summary</title>
+   <link href="http://github.com/gcbeen/2013/01/01/pry-personal-summary"/>
    <updated>2013-01-01T00:00:00+08:00</updated>
-   <id>http://github.com/gcbeen/2013/01/01/new-post</id>
-   <content type="html"></content>
+   <id>http://github.com/gcbeen/2013/01/01/pry-personal-summary</id>
+   <content type="html">&lt;p&gt;以下是本人在rails项目中使用pry的一点经历 想了解更多参考:&lt;br /&gt; &lt;a href='github.com/pry/pry'&gt;github.com/pry/pry&lt;/a&gt;&lt;br /&gt; &lt;a href='rubyer.me/blog/1585'&gt;rubyer.me/blog/1585&lt;/a&gt;&lt;br /&gt; &lt;a href='blog.tyraeltong.com/blog/2011/10/14/introducing-pry'&gt;blog.tyraeltong.com/blog/2011/10/14/introducing-pry&lt;/a&gt;&lt;br /&gt; &lt;strong&gt;运行pry调试ruby代码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pry&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;运行pry调试rails&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pry -r ./config/environment&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;在rails s运行时调试pry终端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在调试的代码中加入binding.pry&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -241,7 +251,7 @@ server {
    <id>http://github.com/gcbeen/2012/12/15/git</id>
    <content type="html">&lt;p&gt;本人在github代码管理了解到git的一些知识，在写blog使用到了一些。 于是梳理了一下git相关的知识。 了解更多&lt;a href='http://marklodato.github.com/visual-git-guide/index-zh-cn.html'&gt;visual-git-guide&lt;/a&gt;,&lt;a href='http://rogerdudler.github.com/git-guide/index.zh.html'&gt;git-guide&lt;/a&gt;。&lt;/p&gt;
 
-&lt;h3 id='id35'&gt;基本用法&lt;/h3&gt;
+&lt;h3 id='id5'&gt;基本用法&lt;/h3&gt;
 
 &lt;p&gt;查看工作目录的状态&lt;/p&gt;
 
@@ -289,7 +299,7 @@ git commit -m &amp;#39;message&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;git checkout HEAD -- files&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id='id36'&gt;命令详解&lt;/h3&gt;
+&lt;h3 id='id6'&gt;命令详解&lt;/h3&gt;
 
 &lt;h5 id='diff'&gt;Diff查看两次提交之间的变动&lt;/h5&gt;
 

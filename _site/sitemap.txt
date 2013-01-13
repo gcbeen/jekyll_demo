@@ -9,7 +9,7 @@ http://github.com/gcbeen/pages.html
 http://github.com/gcbeen/archive.html
 http://github.com/gcbeen/categories.html
 
-http://github.com/gcbeen/2013/01/01/new-post
+http://github.com/gcbeen/2013/01/01/pry-personal-summary
 http://github.com/gcbeen/2013/01/01/deploy-rails-app
 http://github.com/gcbeen/2012/12/27/rake
 http://github.com/gcbeen/2012/12/27/jekyll-blog-start
