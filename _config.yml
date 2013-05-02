@@ -4,8 +4,9 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
+markdown: rdiscount 
 pygments: true
-
+#paginate: 15
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -125,3 +126,27 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]
+
+common-img: '/assets/images'
+joins-img-url: '/assets/images/joins-includes.d'
+joins2-img-url: '/assets/images/joins-includes-2.d'
+web-hcsj: '/assets/images/rails-web-HCSJ.d'
+umongo-tools: '/assets/images/umongo-mongo-tools.d'
+
+rails-szsj:
+  record-img-url: '/assets/images/rails-SZSJ-record.d'
+  ajax: '/assets/images/rails-SZSJ-Ajax.d'
+  assets: '/assets/images/rails-SZSJ-assets.d'
+  controller: '/assets/images/rails-SZSJ-controller.d'
+  dirty-object: '/assets/images/rails-SZSJ-dirty-object.d'
+  helpers: '/assets/images/rails-SZSJ-helpers.d'
+  i18n: '/assets/images/rails-SZSJ-I18n.d'
+  migration: '/assets/images/rails-SZSJ-migration.d'
+  observers: '/assets/images/rails-SZSJ-observers.d'
+  polymorphic: '/assets/images/rails-SZSJ-polymorphic.d'
+  relation: '/assets/images/rails-SZSJ-relation.d'
+  restful: '/assets/images/rails-SZSJ-RESTful.d'
+  store-serialize: '/assets/images/rails-SZSJ-store-serialize.d'
+  template: '/assets/images/rails-SZSJ-template.d'
+  transactions: '/assets/images/rails-SZSJ-transactions.d'
+  validation: '/assets/images/rails-SZSJ-Validation.d'
