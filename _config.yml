@@ -11,7 +11,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 三个火枪手
-tagline: Site Tagline
+tagline: ruby 迷
 author :
   name : gcbeen
   email : guanchengbing@gmail.com
