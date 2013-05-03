@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: post
 title: 第一篇Blog
+description: ""
+category: 
+tags: []
 ---
+{% include JB/setup %}
 <h2>{{ page.title }}</h2>
 <p>我的第一篇文章-搭建自己的Blog</p>
 <p>很久就想搭建自己的Blog了，今天终于完成了，好开心！！！</p>

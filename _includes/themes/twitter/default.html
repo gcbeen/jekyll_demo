@@ -31,7 +31,12 @@
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <a class="brand" href="{{ HOME_PATH }}about.html">关于我</a>
-		  <a class="brand" href="{{HOME_PATH}}search">搜索</a>	
+		  <a class="brand" href="{{HOME_PATH}}search">搜索</a>
+		  <form class="search" action="http://www.google.com/search">
+            <input type="hidden" value="gcbeen.herokuapp.com" name="as_sitesearch">
+            <input class="search_field" type="text" value="" name="as_q">
+            <input class="search_btn" type="submit" value="Search">
+          </form>	
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}

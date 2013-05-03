@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My blog</title>
+    <title>gcbeen blog</title>
     
     <meta name="author" content="gcbeen">
 
@@ -32,6 +32,12 @@
         <div class="container">
           <a class="brand" href="/">三个火枪手</a>
           <a class="brand" href="/about.html">关于我</a>
+		  <a class="brand" href="/search">搜索</a>
+		  <form class="search" action="http://www.google.com/search">
+            <input type="hidden" value="gcbeen.herokuapp.com" name="as_sitesearch">
+            <input class="search_field" type="text" value="" name="as_q">
+            <input class="search_btn" type="submit" value="Search">
+          </form>	
           <ul class="nav">
             
             
@@ -49,9 +55,17 @@
   
     
       
+    
+  
+    
+      
       	
       	<li><a href="/tags.html">Tags</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -104,29 +118,39 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>My blog  <small>Supporting tagline</small></h1>
+  <h1>gcbeen blog  <small>Supporting tagline</small></h1>
 </div>
 
 <div class="row">
   <div class="span12">
-    <h3 id='my_posts_list'>My posts list</h3>
-<ul class='posts'>
-  
-    <li><span>01 Jan 2013</span> &raquo; <a href='/2013/01/01/pry-personal-summary'>pry person summary</a></li>
-  
-    <li><span>01 Jan 2013</span> &raquo; <a href='/2013/01/01/deploy-rails-app'>deploy rails app</a></li>
-  
-    <li><span>27 Dec 2012</span> &raquo; <a href='/2012/12/27/rake'>rake任务</a></li>
-  
-    <li><span>27 Dec 2012</span> &raquo; <a href='/2012/12/27/jekyll-blog-start'>jekyll blog start</a></li>
-  
-    <li><span>15 Dec 2012</span> &raquo; <a href='/2012/12/15/hello-world'>第一篇Blog</a></li>
-  
-    <li><span>15 Dec 2012</span> &raquo; <a href='/2012/12/15/git'>git使用个人小结</a></li>
-  
-    <li><span>29 Dec 2011</span> &raquo; <a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
-  
-</ul>
+    
+
+<h6>My posts list</h6>
+<br/>
+
+<div>
+	<ul>
+	
+	</ul>
+</div>
+
+<div id="pagination">
+	<div class="pagenavi">
+	<span class="page_number">第页/共页</span>
+	<a href="/">第一页</a>
+	
+		<span><<前一页</span>
+	
+	
+	
+	
+	
+		<span>后一页>></span>
+	
+	<a href="/page">最后一页</a>
+	</div>
+</div>
+
   </div>
 </div>
 
