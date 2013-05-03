@@ -1,5 +1,5 @@
-source :rubygems
-
+#source :rubygems
+source 'http://ruby.taobao.org'
 gem 'jekyll'
 gem 'RedCloth'
 gem 'rack-jekyll'
