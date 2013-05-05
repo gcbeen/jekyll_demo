@@ -3,5 +3,4 @@ _posts/2012-01-01-common.md
 _posts/2013-04-26-day-note.md
 assets/images/*
 Gemfile
-_post/day-notes/
-_post/day-notes/*
+day-notes/*
